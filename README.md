@@ -3,6 +3,8 @@ InfoBubble
 
 This is a Google provided lib, which allows to create custom InfoWindows.
 
+see working fiddle (as of JUL-2013) : http://jsfiddle.net/jeffz2012/TAGsf/
+
 
 It is pretty much same to original, which you can find here:
 
