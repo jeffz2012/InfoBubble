@@ -57,7 +57,7 @@ so I just extended &lt;IMG&gt; capacity.
 
 If you want to add custom class and change closing element from &lt;IMG&gt; to e.g. &lt;DIV&gt; do some thing like this:
 
-1. line 221 - find:
+line 221 - find:
 var close = this.close_ = document.createElement('IMG');
 
 change to:
