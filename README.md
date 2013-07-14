@@ -51,7 +51,7 @@ NOTE: 5 new elements on the bottom.
 Pure CSS supoport:
 ------------------------
 
-*NOTE*: what's below is conceptiual, not tested - I just tested, if change to &lt;DIV&gt; and if class can be added.
+*NOTE*: what's below is conceptual, not tested - I just tested, if change to &lt;DIV&gt; and if class can be added.
 
 Provided code does not allow for :hover changes to closing image, as it is based on originally used &lt;IMG&gt; tag.
 I did not want to mess too much with original concept (API should not allow too much of custom injections in general),
