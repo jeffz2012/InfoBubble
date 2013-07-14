@@ -51,11 +51,11 @@ NOTE: 5 new elements on the bottom.
 
 Pure CSS supoport:
 ------------------------
-Provided code does not allow for :hover changes to closing image, as it is based on originally used <IMG> tag.
+Provided code does not allow for :hover changes to closing image, as it is based on originally used &lt;IMG&gt; tag.
 I did not want to mess too much with original concept (API should not allow too much of custom injections in general),
-so I just extended <IMG> capacity.
+so I just extended &lt;IMG&gt; capacity.
 
-If you want to add custom class and change closing element from <IMG> to e.g. <DIV> do some thing like this:
+If you want to add custom class and change closing element from &lt;IMG&gt; to e.g. &lt;DIV&gt; do some thing like this:
 
 1. line 221 - find:
 var close = this.close_ = document.createElement('IMG');
