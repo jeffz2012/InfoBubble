@@ -59,10 +59,15 @@ If you want to add custom class and change closing element from &lt;IMG&gt; to e
 
 1. line 221 - find:
 var close = this.close_ = document.createElement('IMG');
+
 change to:
+
 var close = this.close_ = document.createElement('DIV');
+
 add immediately after: 
+
 close.className = 'yourCustomClass';
+
 You may remove, or keep close.style['xxx'] elements - best remove them and add css code to class.
 
 Remove: (line 45)
@@ -73,6 +78,7 @@ Remove: (line 45)
   this.closeRight = opt_options.closeRight;
 
 You also must remove and deal with top/right values around line 1785.
+
 Note: right value is dynamic, reacting to scroller.
 
 
